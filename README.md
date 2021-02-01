@@ -34,6 +34,10 @@ This document shows the most common IoT services and how to interface with them.
       - Cost: Up to 1 billion messages: $2.30 (per million messages)
     - Alexa integration
 
+## STM32 Using freeRtos
+  freeRtos can be used inside of STM32Cube by enabling it under the "Middleware" tab. STM32 uses an abstraction layer, CMSIS, to interface with freeRtos. CMSIS functions control the timing/priority of the tasks/threads. An overview of CMSIS and its functions can be found [here](https://arm-software.github.io/CMSIS_5/RTOS2/html/rtos_api2.html#rtos_api2_basics).
+
+
 
 # Microsoft Azure
 1. Microsoft Azure RTOS [Github](https://github.com/azure-rtos)
@@ -58,6 +62,7 @@ This document shows the most common IoT services and how to interface with them.
   - [ ] SDK
   - [ ] Advantages
   - [ ] Disadvantages
+  - [ ] STM32
 
 - ### Azure
   - [ x ] Azure RTOS
@@ -69,3 +74,4 @@ This document shows the most common IoT services and how to interface with them.
   - [ ] Windows for IoT
   - [ ] Advantages
   - [ ] Disadvantages
+  - [ ] Example build
